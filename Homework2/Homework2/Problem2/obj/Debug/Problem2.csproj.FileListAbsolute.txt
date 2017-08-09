@@ -1,0 +1,6 @@
+C:\CS287-Example\HOMEWORK\Homework2\Homework2\Problem2\bin\Debug\Problem2.exe.config
+C:\CS287-Example\HOMEWORK\Homework2\Homework2\Problem2\bin\Debug\Problem2.exe
+C:\CS287-Example\HOMEWORK\Homework2\Homework2\Problem2\bin\Debug\Problem2.pdb
+C:\CS287-Example\HOMEWORK\Homework2\Homework2\Problem2\obj\Debug\Problem2.csprojResolveAssemblyReference.cache
+C:\CS287-Example\HOMEWORK\Homework2\Homework2\Problem2\obj\Debug\Problem2.exe
+C:\CS287-Example\HOMEWORK\Homework2\Homework2\Problem2\obj\Debug\Problem2.pdb
