@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonGo.Core", "PokemonGo.Core\PokemonGo.Core.csproj", "{5F221E77-1C01-4262-BB71-5238AB9BD1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonGoWinForm", "PokemonGoWinForm\PokemonGoWinForm.csproj", "{B752CEEE-3F53-4E50-860E-EE1A58656F33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F221E77-1C01-4262-BB71-5238AB9BD1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F221E77-1C01-4262-BB71-5238AB9BD1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F221E77-1C01-4262-BB71-5238AB9BD1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F221E77-1C01-4262-BB71-5238AB9BD1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B752CEEE-3F53-4E50-860E-EE1A58656F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B752CEEE-3F53-4E50-860E-EE1A58656F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B752CEEE-3F53-4E50-860E-EE1A58656F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B752CEEE-3F53-4E50-860E-EE1A58656F33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
