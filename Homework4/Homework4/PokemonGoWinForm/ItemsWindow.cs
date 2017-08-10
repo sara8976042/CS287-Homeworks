@@ -115,13 +115,12 @@ namespace PokemonGoWinForm
             {
                 Pokemons[SelectePokemonIndex].CurrentHP += Potions[SelectedPotionIndex].RestoringHP;
                 Potions[SelectedPotionIndex].Count--;
-                Render();
+               
             }
-            else
-            {
+
                 Render();
-            }
-        }
+  
+    }
 
         public void Render()
         {
