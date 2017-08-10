@@ -33,14 +33,14 @@ namespace PokemonGoWinForm
                 new Potion()
                 {
                     Name="Super Potion",
-                    Description="傷藥,可以回復HP50",
+                    Description="好傷藥,可以回復HP50",
                     RestoringHP=50,
                     Count=34
                 },
                 new Potion()
                 {
                     Name="Hyper Potion",
-                    Description="傷藥,可以回復HP200",
+                    Description="超級傷藥,可以回復HP200",
                     RestoringHP=200,
                     Count=44
                 }
