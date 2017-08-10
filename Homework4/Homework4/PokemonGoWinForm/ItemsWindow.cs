@@ -111,9 +111,20 @@ namespace PokemonGoWinForm
             int restoringHP = Potions[SelectedPotionIndex].RestoringHP;
             int maxHP = Pokemons[SelectePokemonIndex].HP;
             int potionCount = Potions[SelectedPotionIndex].Count;
-            if (currentHP+ restoringHP <= maxHP && potionCount>=1)
+
+            if (Pokemons[SelectePokemonIndex].CurrentHP < Pokemons[SelectePokemonIndex].HP)
             {
-                Pokemons[SelectePokemonIndex].CurrentHP += Potions[SelectedPotionIndex].RestoringHP;
+                if (currentHP + restoringHP < maxHP && potionCount >= 1)
+                {
+                    Pokemons[SelectePokemonIndex].CurrentHP
+                    += Potions[SelectedPotionIndex].RestoringHP;
+                }
+                else if (currentHP + restoringHP >= maxHP && potionCount >= 1)
+                {
+                    Pokemons[SelectePokemonIndex].CurrentHP
+                    = Pokemons[SelectePokemonIndex].HP;
+                }
+
                 Potions[SelectedPotionIndex].Count--;
             }
 
